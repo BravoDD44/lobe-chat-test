@@ -1,0 +1,17 @@
+.container {
+  --workspace-header-height: 62px;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: var(--workspace-header-height);
+}
+
+.iframeBox {
+  border: none;
+  width: 100%;
+  height: calc(100% - var(--workspace-header-height));
+  margin-top: var(--workspace-header-height);
+}
